@@ -89,7 +89,7 @@ int Parttwo(modelandcascade& returned){
 }
 
 int main(int argc, const char *argv[]) {
-	//Get filenames for training images and Haar cascades
+	//Get filenames for the training images and Haar cascades
 	string imageslist, haarfile;
 	cout << "Enter name of the file with list of training images, e.g. f.csv: ";
 	cin >> imageslist;
